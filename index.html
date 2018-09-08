@@ -1,26 +1,14 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-	<title>Cesar 7</title>
-	<meta charset="utf-8">	
-	<script type="text/javascript">
-	window.oncontextmenu = function() {
-	return false;
-	} </script>
-</head>
-<body bgcolor="black">
-	<h1 style="color: white;">No Hay Nada Acá! :V</h1>
-	<table style="border-style: solid; color: black; height: 100%; width: 100%;text-align: 	center;">
-		<tr>	
-			<td>2</td>
-			<td>3</td>
-			<td>1</td>
-		</tr>
-		<tr>	
-			<td>ls xbl</td>
-			<td>sv slh</td>
-			<td>wbav</td>
-		</tr>
-	</table>
-</body>
+<html>
+ <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title> Subir archivos </title>
+ </head>
+ <body>
+    <form method="post" action="subir.php" enctype="multipart/form-data">
+       <label> Archivo </label>
+       <input type="file" name="archivo" required="required" />
+       <input type="submit" value="Subir" />
+    </form>
+ </body>
 </html>
